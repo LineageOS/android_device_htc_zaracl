@@ -72,8 +72,8 @@ on fs
     mkdir /firmware 0771 system system
     mkdir /vendor 0771 system system
     mkdir /vendor/firmware 0771 system system
-    mkdir /firmware/radio 0771 system system
-    mkdir /firmware/q6 0771 system system
+    mkdir /firmware_radio 0771 system system
+    mkdir /firmware_q6 0771 system system
 
     # mount all mmc partitions
     mount_all ./fstab.qcom
